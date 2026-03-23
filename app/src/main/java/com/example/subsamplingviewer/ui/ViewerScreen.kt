@@ -56,11 +56,6 @@ import androidx.core.net.toUri
 private val ViewerColorScheme: ColorScheme = lightColorScheme(
     primary = Color(0xFF124C7C),
     onPrimary = Color.White,
-    secondary = Color(0xFF127475),
-    tertiary = Color(0xFFE27A2F),
-    background = Color(0xFFF4F7FB),
-    surface = Color(0xFFFFFFFF),
-    surfaceVariant = Color(0xFFE6EEF6),
     onSurface = Color(0xFF18202A),
     onSurfaceVariant = Color(0xFF506172),
 )
