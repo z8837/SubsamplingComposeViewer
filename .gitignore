@@ -1,0 +1,24 @@
+# Gradle / Android build outputs
+.gradle/
+build/
+app/build/
+
+# Local machine settings
+local.properties
+.kotlin/
+
+# IDE
+.idea/caches/
+.idea/modules/
+.idea/workspace.xml
+.idea/shelf/
+*.iml
+
+# Native / generated
+.cxx/
+.externalNativeBuild/
+captures/
+
+# OS files
+.DS_Store
+Thumbs.db

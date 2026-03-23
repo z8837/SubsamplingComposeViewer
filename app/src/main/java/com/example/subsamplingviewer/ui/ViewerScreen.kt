@@ -219,10 +219,6 @@ private fun ViewerCanvas(
     onAngleSettledChanged: (Float) -> Unit,
     onViewerTapped: () -> Unit,
 ) {
-    if (LocalInspectionMode.current) {
-//        ViewerCanvasPreviewPlaceholder(rotationDegrees = rotationDegrees)
-        return
-    }
 
     AndroidView(
         modifier = Modifier
@@ -243,45 +239,6 @@ private fun ViewerCanvas(
     )
 }
 
-@Composable
-private fun ViewerCanvasPreviewPlaceholder(rotationDegrees: Float) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color(0xFF10151C))
-            .padding(24.dp),
-        contentAlignment = Alignment.Center,
-    ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(10.dp),
-        ) {
-            Text(
-                text = "Preview Canvas",
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-                color = Color.White,
-            )
-            Text(
-                text = "Image rendering is replaced in Compose Preview.",
-                textAlign = TextAlign.Center,
-                style = MaterialTheme.typography.bodyMedium,
-                color = Color.White.copy(alpha = 0.72f),
-            )
-            Surface(
-                shape = RoundedCornerShape(18.dp),
-                color = Color.White.copy(alpha = 0.12f),
-            ) {
-                Text(
-                    modifier = Modifier.padding(horizontal = 14.dp, vertical = 10.dp),
-                    text = "Rotation ${rotationDegrees.roundToInt()} deg",
-                    fontWeight = FontWeight.Bold,
-                    color = Color.White,
-                )
-            }
-        }
-    }
-}
 
 @Preview(name = "Viewer Empty", showBackground = true, widthDp = 412, heightDp = 915)
 @Composable
