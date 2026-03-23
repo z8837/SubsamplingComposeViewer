@@ -10,9 +10,6 @@ data class ViewerUiState(
 sealed interface ViewerIntent {
     data object SelectImageClicked : ViewerIntent
     data class ImagePicked(val uri: Uri?) : ViewerIntent
-    data object RotateLeftClicked : ViewerIntent
-    data object RotateRightClicked : ViewerIntent
-    data object ResetRotationClicked : ViewerIntent
     data class RotationGestureFinished(val angle: Float) : ViewerIntent
 }
 

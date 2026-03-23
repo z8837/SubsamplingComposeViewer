@@ -39,12 +39,6 @@ class ViewerViewModel : ViewModel() {
                 }
             }
 
-            ViewerIntent.RotateLeftClicked -> updateRotationBy(-90f)
-            ViewerIntent.RotateRightClicked -> updateRotationBy(90f)
-            ViewerIntent.ResetRotationClicked -> {
-                _state.update { it.copy(rotationDegrees = 0f) }
-            }
-
             is ViewerIntent.RotationGestureFinished -> {
                 _state.update { it.copy(rotationDegrees = normalizeAngle(intent.angle)) }
             }
