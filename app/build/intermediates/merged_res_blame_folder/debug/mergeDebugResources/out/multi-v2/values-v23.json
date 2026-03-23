@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "kr.co.humancare.app-mergeDebugResources-50:/values-v23/values-v23.xml",
+            "outputFile": "com.example.app-mergeDebugResources-50:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tokeii\\.gradle\\caches\\8.11.1\\transforms\\3a5634319bbf468855e3ee91f07bdac9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

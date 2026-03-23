@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'kr.co.humancare'
+    namespace 'com.example'
     compileSdk 36
 
     defaultConfig {
-        applicationId "kr.co.humancare.subsamplingviewer"
+        applicationId "com.example.subsamplingviewer"
         minSdk 24
         targetSdk 36
         versionCode 1

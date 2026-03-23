@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "kr.co.humancare.subsamplingviewer",
+  "applicationId": "com.example.subsamplingviewer",
   "variantName": "debug",
   "elements": []
 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "kr.co.humancare.app-mergeDebugResources-50:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.example.app-mergeDebugResources-50:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tokeii\\.gradle\\caches\\8.11.1\\transforms\\926a06f619451c06ff0d546fde9a191a\\transformed\\material-1.12.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",

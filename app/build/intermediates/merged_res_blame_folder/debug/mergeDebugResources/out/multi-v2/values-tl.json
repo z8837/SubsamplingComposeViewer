@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "kr.co.humancare.app-mergeDebugResources-50:/values-tl/values-tl.xml",
+            "outputFile": "com.example.app-mergeDebugResources-50:/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tokeii\\.gradle\\caches\\8.11.1\\transforms\\0676b9368c02ac3a54112d35006ea899\\transformed\\jetified-foundation\\res\\values-tl\\values-tl.xml",

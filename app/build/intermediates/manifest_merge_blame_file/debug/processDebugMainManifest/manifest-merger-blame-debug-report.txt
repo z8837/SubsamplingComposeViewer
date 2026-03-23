@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="kr.co.humancare.subsamplingviewer"
+3    package="com.example.subsamplingviewer"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -10,12 +10,12 @@
 10
 11    <permission
 11-->[androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
-12        android:name="kr.co.humancare.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12        android:name="com.example.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 12-->[androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
 13-->[androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
 14
-15    <uses-permission android:name="kr.co.humancare.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15    <uses-permission android:name="com.example.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 15-->[androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
 15-->[androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
 16
@@ -36,7 +36,7 @@
 25-->C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:8:9-62
 26        <activity
 26-->C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:9:9-17:20
-27            android:name="kr.co.humancare.subsamplingviewer.MainActivity"
+27            android:name="com.example.subsamplingviewer.MainActivity"
 27-->C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:10:13-59
 28            android:exported="true" >
 28-->C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:11:13-36
@@ -62,7 +62,7 @@
 39-->[androidx.emoji2:emoji2:1.4.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\5c8d69238ea07957ad2f971ec32f9cc5\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
 40            android:name="androidx.startup.InitializationProvider"
 40-->[androidx.emoji2:emoji2:1.4.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\5c8d69238ea07957ad2f971ec32f9cc5\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:25:13-67
-41            android:authorities="kr.co.humancare.subsamplingviewer.androidx-startup"
+41            android:authorities="com.example.subsamplingviewer.androidx-startup"
 41-->[androidx.emoji2:emoji2:1.4.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\5c8d69238ea07957ad2f971ec32f9cc5\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:26:13-68
 42            android:exported="false" >
 42-->[androidx.emoji2:emoji2:1.4.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\5c8d69238ea07957ad2f971ec32f9cc5\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:27:13-37

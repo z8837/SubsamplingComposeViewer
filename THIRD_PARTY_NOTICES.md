@@ -6,7 +6,7 @@
 - Upstream license: Apache License 2.0
 - Upstream copyright: Copyright 2018 David Morrissey
 - Included local paths:
-  - `app/src/main/java/kr/co/humancare/util/subsampling/`
+  - `app/src/main/java/com/example/util/subsampling/`
   - `app/src/main/res/values/attrs.xml`
 - Local changes:
   - Renamed packages and namespaces for this project

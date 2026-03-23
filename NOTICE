@@ -8,7 +8,7 @@ Original work Copyright 2018 David Morrissey
 Licensed under the Apache License, Version 2.0.
 
 Adapted code in this repository is located under:
-- app/src/main/java/kr/co/humancare/util/subsampling/
+- app/src/main/java/com/example/util/subsampling/
 - app/src/main/res/values/attrs.xml
 
 Changes in this repository include:

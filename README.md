@@ -24,7 +24,7 @@ Compose UI로 감싼 안드로이드 이미지 뷰어 샘플입니다.
 
 원본 기반 코드가 포함된 위치:
 
-- `app/src/main/java/kr/co/humancare/util/subsampling/`
+- `app/src/main/java/com/example/util/subsampling/`
 - `app/src/main/res/values/attrs.xml`
 
 프로젝트 수준의 고지 문서는 아래 파일에 정리되어 있습니다.

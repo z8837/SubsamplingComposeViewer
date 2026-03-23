@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "kr.co.humancare.app-mergeDebugResources-50:/values-hy/values-hy.xml",
+            "outputFile": "com.example.app-mergeDebugResources-50:/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tokeii\\.gradle\\caches\\8.11.1\\transforms\\104cee428395b1e4a46a42c3f1103745\\transformed\\jetified-ui\\res\\values-hy\\values-hy.xml",

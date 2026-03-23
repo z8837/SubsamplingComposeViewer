@@ -127,7 +127,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\to
 		ADDED from C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
 		ADDED from C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:8:9-62
-activity#kr.co.humancare.subsamplingviewer.MainActivity
+activity#com.example.subsamplingviewer.MainActivity
 ADDED from C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:9:9-17:20
 	android:exported
 		ADDED from C:\Users\tokeii\Documents\GitHub\SubsamplingComposeViewer\app\src\main\AndroidManifest.xml:11:13-36
@@ -353,7 +353,7 @@ ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\tra
 		ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
-permission#kr.co.humancare.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.example.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
@@ -363,7 +363,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
-uses-permission#kr.co.humancare.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.example.subsamplingviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.16.0] C:\Users\tokeii\.gradle\caches\8.11.1\transforms\9bce76415633ff485cf78276b58880a7\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
