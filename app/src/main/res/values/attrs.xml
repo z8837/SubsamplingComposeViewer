@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Derived from davemorrissey/subsampling-scale-image-view
+      https://github.com/davemorrissey/subsampling-scale-image-view
+
+      Original work Copyright 2018 David Morrissey
+      Licensed under the Apache License, Version 2.0.
+
+      Modified for this project:
+      - Moved into the app module resource set.
+      - Kept locally to support the adapted embedded view source.
+    -->
+
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr name="src" format="reference" />
+        <attr name="assetName" format="string" />
+        <attr name="panEnabled" format="boolean" />
+        <attr name="zoomEnabled" format="boolean" />
+        <attr name="quickScaleEnabled" format="boolean" />
+        <attr name="tileBackgroundColor" format="color" />
+    </declare-styleable>
+
+</resources>

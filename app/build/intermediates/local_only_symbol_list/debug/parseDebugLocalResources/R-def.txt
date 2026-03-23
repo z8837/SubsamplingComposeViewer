@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+attr? assetName
+attr? panEnabled
+attr? quickScaleEnabled
+attr? src
+attr? tileBackgroundColor
+attr? zoomEnabled
+string app_name
+string select_image
+string viewer_empty_hint
+style Theme.SubsamplingComposeViewer
+styleable SubsamplingScaleImageView src assetName panEnabled zoomEnabled quickScaleEnabled tileBackgroundColor

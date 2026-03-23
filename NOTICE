@@ -1,0 +1,17 @@
+SubsamplingComposeViewer
+
+This repository includes source code derived from:
+davemorrissey/subsampling-scale-image-view
+https://github.com/davemorrissey/subsampling-scale-image-view
+
+Original work Copyright 2018 David Morrissey
+Licensed under the Apache License, Version 2.0.
+
+Adapted code in this repository is located under:
+- app/src/main/java/kr/co/humancare/util/subsampling/
+- app/src/main/res/values/attrs.xml
+
+Changes in this repository include:
+- Package and namespace relocation for local integration
+- Android app module integration
+- Compose-based viewer integration around the adapted image view
